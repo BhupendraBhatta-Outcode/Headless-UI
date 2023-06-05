@@ -1,9 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import FloatingUi from "./pages/Float";
+import All from "./pages/All";
 
 function App() {
-  return <FloatingUi />;
+  return (
+    <>
+      <All />
+    </>
+  );
 }
 
 export default App;
