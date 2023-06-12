@@ -2,8 +2,6 @@ import { Fragment, useState } from "react";
 import { Listbox } from "@headlessui/react";
 import { Float } from "@headlessui-float/react";
 import Block from "../components/Block";
-// import HeroiconsCheck20Solid from "~icons/heroicons/check-20-solid";
-// import HeroiconsChevronUpDown20Solid from "~icons/heroicons/chevron-up-down-20-solid";
 
 const people = [
   { id: 1, name: "Steve Smith" },
@@ -38,6 +36,7 @@ export default function ListboxDrawer() {
                 className="w-5 h-5 text-gray-400"
                 aria-hidden="true"
               /> */}
+              ↕
             </span>
           </Listbox.Button>
 
@@ -67,6 +66,7 @@ export default function ListboxDrawer() {
                           className="w-5 h-5"
                           aria-hidden="true"
                         /> */}
+                        ✓
                       </span>
                     )}
                   </>
